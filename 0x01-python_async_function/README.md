@@ -16,4 +16,5 @@ This project contains tasks for learning to use asynchronous code in Python 3.
   + Use the `time` module to measure an approximate elapsed time.
      
 + [x] 3. **Tasks**<br/>[3-tasks.py](3-tasks.py) contains a script that meets the following requirements:
-  + Import wait_random from [0-basic_async_syntax.py](0-basic_async_syntax.py)
+  + Import `wait_random` from [0-basic_async_syntax.py](0-basic_async_syntax.py)
+  + Write a function (do not create an async function, use the regular function syntax to do this) `task_wait_random` that takes an integer `max_delay` and returns `asyncio.Task`.
