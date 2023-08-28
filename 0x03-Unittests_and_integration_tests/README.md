@@ -44,16 +44,17 @@ $ python -m unittest path/to/test_file.py
 - All your functions and coroutines must be type-annotated.
 
 ## Required Files
-`utils.py` ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))
-Click to show/hide file contents
-
-`client.py` ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))
-Click to show/hide file contents
-
-`fixtures.py` ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))
-Click to show/hide file contents
+**`utils.py`** ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/utils.py))<br/>Click to show/hide file contents
 
 
+**`client.py`** ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/client.py))<br/>Click to show/hide file contents
+
+**`fixtures.py`** ([or download](https://intranet-projects-files.s3.amazonaws.com/webstack/fixtures.py))<br/>Click to show/hide file contents
+
+## Required Modules
+- parameterized.
+
+## Tasks To Complete
 
 
 
