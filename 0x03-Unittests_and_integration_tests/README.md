@@ -17,3 +17,7 @@ Execute your tests with
 ```python
 $ python -m unittest path/to/test_file.py
 ```
+
+## Resources
+
+
