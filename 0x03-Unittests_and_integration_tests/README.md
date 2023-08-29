@@ -69,4 +69,10 @@ $ python -m unittest path/to/test_file.py
   + For each of these inputs, test with `assertEqual` that the function returns the expected result.
   + The body of the test method should not be longer than 2 lines.
 
-
++ [x] 1. **Parameterize a unit test**<br/>[test_utils.py](https://github.com/richard-1257/alx-backend-python/blob/master/0x03-Unittests_and_integration_tests/test_utils.py) contains a python module that meets the following requirements:
+  + Implement `TestAccessNestedMap.test_access_nested_map_exception`. Use the `assertRaises` context manager to test that a `KeyError` is raised for the following inputs (use `@parameterized.expand`):
+    ```python
+    nested_map={}, path=("a",)
+    nested_map={"a": 1}, path=("a", "b")
+    ``` 
+  + Also make sure that the exception message is as expected.
