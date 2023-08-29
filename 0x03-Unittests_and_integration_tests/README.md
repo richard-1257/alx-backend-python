@@ -149,4 +149,3 @@ $ python -m unittest path/to/test_file.py
 + [x] 9. **Integration tests**<br/>[test_utils.py](https://github.com/richard-1257/alx-backend-python/blob/master/0x03-Unittests_and_integration_tests/test_utils.py) contains a python module that meets the following requirements:
   + Implement the `test_public_repos` method to test `GithubOrgClient.public_repos`.
   + Make sure that the method returns the expected results based on the fixtures.
-  + Implement `test_public_repos_with_license` to test the `public_repos` with the argument `license="apache-2.0"` and make sure the result matches the expected value from the fixtures.
