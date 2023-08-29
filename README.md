@@ -5,3 +5,14 @@
 
 This repo contains projects for learning backend development concepts with __Python__.
 
+## :sagittarius: Author
+
+> :man: Ifeanyi Richard
+
+> :e-mail: [E-mail](richardsifeanyi@gmail.com)
+
+> :octocat: [Github](https://github.com/richard-1257)
+
+> :bird: [Twiiter](https://twitter.com/Richards_TL)
+
+> :blue_book: [Linkedin](https://www.linkedin.com/in/richards-ifeanyi/).
