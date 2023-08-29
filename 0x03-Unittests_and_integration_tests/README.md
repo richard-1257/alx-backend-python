@@ -104,7 +104,14 @@ $ python -m unittest path/to/test_file.py
     ``` 
   + Use `unittest.mock.patch` to mock `a_method`. Test that when calling `a_property` twice, the correct result is returned but `a_method` is only called once using `assert_called_once`.
 
-
++ [x] 4. **Parameterize and patch as decorators**<br/>[test_client.py](https://github.com/richard-1257/alx-backend-python/blob/master/0x03-Unittests_and_integration_tests/test_client.py) contains a python module that meets the following requirements:
+  + Familiarize yourself with the `client.GithubOrgClient` class.
+  + Declare the `TestGithubOrgClient(unittest.TestCase)` class and implement the `test_org` method.
+  + Use `@patch` as a decorator to make sure `get_json` is called once with the expected argument but make sure it is not executed.
+  + Use `@parameterized.expand` as a decorator to parametrize the test with a couple of `org` examples to pass to `GithubOrgClient`, in this order:
+    + `google`.
+    + `abc`. 
+  + No external HTTP calls should be made.
 
 
 
